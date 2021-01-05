@@ -47,3 +47,4 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.phone ? 175 : 260
     }
 }
+ 

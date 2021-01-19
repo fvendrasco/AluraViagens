@@ -40,6 +40,8 @@
 		5FB95351259BA9C800B4553F /* Alura_ViagensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB95350259BA9C800B4553F /* Alura_ViagensUITests.swift */; };
 		5FB9535F259BBFA500B4553F /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB9535E259BBFA500B4553F /* Viagem.swift */; };
 		5FB9536E259BC81300B4553F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB9536D259BC81300B4553F /* TableViewCell.swift */; };
+		5FC96B4725B72E9D00F647AC /* AccessibilityHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC96B4625B72E9D00F647AC /* AccessibilityHome.swift */; };
+		5FC96B4F25B746E600F647AC /* AccessibilityPacotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC96B4E25B746E600F647AC /* AccessibilityPacotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		5FB95352259BA9C800B4553F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FB9535E259BBFA500B4553F /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		5FB9536D259BC81300B4553F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5FC96B4625B72E9D00F647AC /* AccessibilityHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHome.swift; sourceTree = "<group>"; };
+		5FC96B4E25B746E600F647AC /* AccessibilityPacotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityPacotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				5F53D34925A113550075E6D0 /* PacotesViagemViewController.swift */,
+				5FC96B4E25B746E600F647AC /* AccessibilityPacotes.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				5FB95332259BA9C700B4553F /* ViewController.swift */,
+				5FC96B4625B72E9D00F647AC /* AccessibilityHome.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -478,11 +484,13 @@
 				5FB95333259BA9C700B4553F /* ViewController.swift in Sources */,
 				5F53D34A25A113550075E6D0 /* PacotesViagemViewController.swift in Sources */,
 				5F53D35125A353730075E6D0 /* DetalhesViagensViewController.swift in Sources */,
+				5FC96B4F25B746E600F647AC /* AccessibilityPacotes.swift in Sources */,
 				5F53D35525A360D70075E6D0 /* PacoteViagemDAO.swift in Sources */,
 				5FB9535F259BBFA500B4553F /* Viagem.swift in Sources */,
 				5F499D5625A3B1D4009D109B /* ConfirmacaoPagamentoViewController.swift in Sources */,
 				5F53D34C25A114AF0075E6D0 /* PacoteViagemCollectionViewCell.swift in Sources */,
 				5FB95331259BA9C700B4553F /* AppDelegate.swift in Sources */,
+				5FC96B4725B72E9D00F647AC /* AccessibilityHome.swift in Sources */,
 				5F53D35325A35F0C0075E6D0 /* PacoteViagem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

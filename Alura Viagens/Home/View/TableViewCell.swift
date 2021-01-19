@@ -15,3 +15,5 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var labelPreco: UILabel!
     @IBOutlet weak var imagemViagem: UIImageView!
 }
+
+

@@ -24,6 +24,7 @@ class PacotesViagemViewController: UIViewController, UICollectionViewDataSource,
         colecaoPacotesViagem.delegate = self
         pesquisarViagens.delegate = self
         self.labelContadorDePacotes.text = self.atualizaContadorLabel()
+        setupAccessibility()
     }
     
     
@@ -73,6 +74,6 @@ class PacotesViagemViewController: UIViewController, UICollectionViewDataSource,
     }
     func atualizaContadorLabel() -> String {
         return listaViagens.count == 1 ? "1 pacote encontrado" : "\(listaViagens.count) pacotes encontrados"
-    }
-    
+    }  
 }
+
